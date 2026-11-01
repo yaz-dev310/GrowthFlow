@@ -1,0 +1,311 @@
+
+{
+  "app": {
+    "name": "GrowthFlow"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "clients": "Kunden",
+    "campaigns": "Kampagnen",
+    "analytics": "Analysen",
+    "leads": "Lead-Verwaltung",
+    "settings": "Einstellungen"
+  },
+  "sidebar": {
+    "platform": "Marketingplattform",
+    "workspace": "Arbeitsbereich",
+    "administrator": "Administrator"
+  },
+  "header": {
+    "search": "Suchen...",
+    "notifications": "Benachrichtigungen",
+    "profile": "Mein Profil",
+    "logout": "Abmelden",
+    "language": "Sprache",
+    "menu": "Menü öffnen",
+    "subtitles": {
+      "dashboard": "Hier ist eine Übersicht Ihrer Aktivitäten.",
+      "clients": "Verwalten und verfolgen Sie Ihre Kunden.",
+      "campaigns": "Steuern Sie Ihre Marketingkampagnen.",
+      "analytics": "Analysieren Sie die Leistung Ihrer Agentur.",
+      "leads": "Verfolgen Sie Ihre Interessenten und Geschäftsmöglichkeiten.",
+      "settings": "Passen Sie Ihren Arbeitsbereich an.",
+      "default": "Willkommen in Ihrem GrowthFlow-Arbeitsbereich."
+    },
+    "activityTypes": {
+      "client": "Kunde",
+      "campaign": "Kampagne",
+      "lead": "Lead",
+      "other": "Aktivität"
+    },
+    "clearSearch": "Suche löschen",
+    "notificationCount": "Benachrichtigungen: {{count}} ungelesen",
+    "unreadCount": "{{count}} ungelesen",
+    "markAllRead": "Alle als gelesen markieren",
+    "markRead": "Als gelesen markieren",
+    "read": "Gelesen",
+    "deleteNotification": "Diese Benachrichtigung löschen",
+    "emptyNotifications": "Zurzeit keine Benachrichtigungen.",
+    "viewDashboard": "Dashboard anzeigen",
+    "administrator": "Administrator"
+  },
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "add": "Hinzufügen",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "actions": "Aktionen",
+    "loading": "Wird geladen..."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen bei GrowthFlow",
+    "clients": "Kunden",
+    "campaigns": "Aktive Kampagnen",
+    "leads": "Leads",
+    "conversion": "Conversion-Rate",
+    "recentActivity": "Letzte Aktivitäten"
+  },
+  "overview": {
+    "welcome": "Hallo, {{name}} 👋",
+    "description": "Hier ist eine Übersicht über die Aktivitäten Ihrer Agentur.",
+    "unknownDate": "Unbekanntes Datum",
+    "stats": {
+      "revenue": "Gesamtumsatz",
+      "demoData": "Fiktive Demodaten",
+      "clients": "Kunden",
+      "registeredClients": "Registrierte Kunden",
+      "campaigns": "Kampagnen",
+      "registeredCampaigns": "Registrierte Kampagnen",
+      "convertedLeads": "Konvertierte Leads",
+      "convertedDescription": "Leads, die zu Kunden wurden",
+      "conversionRate": "Conversion-Rate",
+      "conversionDescription": "Über alle Leads hinweg"
+    },
+    "revenue": {
+      "title": "Umsatzentwicklung",
+      "description": "Fiktive Demodaten",
+      "label": "Umsatz"
+    },
+    "activities": {
+      "title": "Letzte Aktivitäten",
+      "description": "Die zuletzt durchgeführten Aktionen",
+      "empty": "Zurzeit keine Aktivitäten.",
+      "clientCreated": "Neuer Kunde hinzugefügt: {{name}}",
+      "clientUpdated": "Kunde {{name}} aktualisiert",
+      "clientDeleted": "Kunde {{name}} gelöscht",
+      "campaignCreated": "Neue Kampagne hinzugefügt: {{name}}",
+      "campaignUpdated": "Kampagne {{name}} aktualisiert",
+      "campaignDeleted": "Kampagne {{name}} gelöscht",
+      "leadCreated": "Neuer Lead hinzugefügt: {{name}}",
+      "leadUpdated": "Lead {{name}} aktualisiert",
+      "leadDeleted": "Lead {{name}} gelöscht",
+      "generic": {
+        "client": {
+          "created": "Kunde erstellt",
+          "updated": "Kunde aktualisiert",
+          "deleted": "Kunde gelöscht"
+        },
+        "campaign": {
+          "created": "Kampagne erstellt",
+          "updated": "Kampagne aktualisiert",
+          "deleted": "Kampagne gelöscht"
+        },
+        "lead": {
+          "created": "Lead erstellt",
+          "updated": "Lead aktualisiert",
+          "deleted": "Lead gelöscht"
+        }
+      }
+    },
+    "campaigns": {
+      "title": "Letzte Kampagnen",
+      "description": "Die zuletzt registrierten Kampagnen",
+      "empty": "Keine Kampagnen registriert."
+    },
+    "leads": {
+      "title": "Letzte Leads",
+      "description": "Die zuletzt registrierten Interessenten",
+      "empty": "Keine Leads registriert."
+    },
+    "table": {
+      "campaign": "Kampagne",
+      "channel": "Kanal",
+      "budget": "Budget",
+      "status": "Status",
+      "name": "Name",
+      "company": "Unternehmen",
+      "source": "Quelle"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mär",
+      "apr": "Apr",
+      "may": "Mai",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep"
+    }
+  },
+  "clients": {
+    "heading": "Ihre Kunden",
+    "description": "Verwalten Sie die Unternehmen, die von Ihrer Agentur betreut werden.",
+    "add": "Kunden hinzufügen",
+    "editTitle": "Kunden bearbeiten",
+    "newTitle": "Neuer Kunde",
+    "companyName": "Unternehmensname",
+    "sector": "Branche",
+    "active": "Aktiv",
+    "pending": "Ausstehend",
+    "saveChanges": "Änderungen speichern",
+    "addClient": "Kunden hinzufügen",
+    "search": "Kunden suchen...",
+    "client": "Kunde",
+    "sectorLabel": "Branche",
+    "campaigns": "Kampagnen",
+    "status": "Status",
+    "empty": "Keine Kunden gefunden.",
+    "confirmDelete": "Möchten Sie {{name}} wirklich löschen?"
+  },
+  "campaigns": {
+    "heading": "Marketingkampagnen",
+    "description": "Verfolgen Sie die Kampagnen Ihrer Kunden.",
+    "add": "Neue Kampagne",
+    "search": "Kampagne suchen...",
+    "editTitle": "Kampagne bearbeiten",
+    "newTitle": "Neue Kampagne",
+    "name": "Kampagnenname",
+    "budget": "Budget in Euro",
+    "planned": "Geplant",
+    "inProgress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "saveChanges": "Änderungen speichern",
+    "addCampaign": "Kampagne hinzufügen",
+    "empty": "Keine Kampagnen gefunden.",
+    "emptyDescription": "Versuchen Sie einen anderen Namen, Kanal oder Status.",
+    "confirmDelete": "Möchten Sie diese Kampagne löschen?"
+  },
+  "analytics": {
+    "heading": "Analysen",
+    "description": "Analysieren Sie die Marketingleistung Ihrer Agentur.",
+    "selectPeriod": "Zeitraum auswählen",
+    "periods": {
+      "7days": "7 Tage",
+      "30days": "30 Tage",
+      "90days": "90 Tage",
+      "12months": "12 Monate"
+    },
+    "metrics": {
+      "visitors": "Besucher",
+      "conversions": "Conversions",
+      "clickRate": "Klickrate",
+      "leads": "Generierte Leads",
+      "conversionRate": "Conversion-Rate"
+    },
+    "previousPeriod": "im Vergleich zum vorherigen Zeitraum",
+    "visitorsEvolution": "Besucherentwicklung",
+    "visitorsDescription": "Traffic im ausgewählten Zeitraum",
+    "campaignPerformance": "Kampagnenleistung",
+    "campaignDescription": "Conversions nach Kanal im ausgewählten Zeitraum"
+  },
+  "leads": {
+    "heading": "Lead-Verwaltung",
+    "description": "Verfolgen Sie Ihre Interessenten und Geschäftsmöglichkeiten.",
+    "add": "Lead hinzufügen",
+    "search": "Lead suchen...",
+    "editTitle": "Lead bearbeiten",
+    "newTitle": "Neuer Lead",
+    "name": "Name des Interessenten",
+    "company": "Unternehmen",
+    "source": "Quelle",
+    "status": "Status",
+    "saveChanges": "Speichern",
+    "addLead": "Hinzufügen",
+    "empty": "Keine Leads gefunden.",
+    "confirmDelete": "Möchten Sie diesen Lead wirklich löschen?",
+    "statuses": [
+      "Neu",
+      "Kontaktiert",
+      "Qualifiziert",
+      "Konvertiert",
+      "Verloren"
+    ],
+    "sources": [
+      "Website",
+      "LinkedIn",
+      "Werbung",
+      "Empfehlung",
+      "Sonstiges"
+    ]
+  },
+  "settings": {
+    "heading": "Einstellungen",
+    "description": "Verwalten Sie die Informationen und Einstellungen Ihres Arbeitsbereichs.",
+    "agency": {
+      "title": "Agenturinformationen",
+      "description": "Allgemeine Informationen",
+      "name": "Name der Agentur",
+      "email": "E-Mail-Adresse"
+    },
+    "account": {
+      "title": "Benutzerkonto",
+      "description": "Ihre Kontoeinstellungen",
+      "role": "Administratorprofil",
+      "notice": "Die vollständige Benutzerverwaltung wird später hinzugefügt."
+    },
+    "notifications": {
+      "title": "Benachrichtigungen",
+      "description": "Verwalten Sie Ihre Benachrichtigungen",
+      "receive": "Benachrichtigungen erhalten"
+    },
+    "security": {
+      "title": "Sicherheit",
+      "description": "Die Verwaltung von Passwörtern und Authentifizierung wird mit dem Backend hinzugefügt."
+    },
+    "save": "Änderungen speichern",
+    "success": "Einstellungen erfolgreich gespeichert!"
+  },
+  "auth": {
+    "copyright": "© {{year}} GrowthFlow. Alle Rechte vorbehalten.",
+    "fullName": "Vollständiger Name",
+    "fullNamePlaceholder": "Ihr vollständiger Name",
+    "agencyName": "Name der Agentur",
+    "agencyPlaceholder": "Name Ihrer Agentur",
+    "professionalEmail": "Geschäftliche E-Mail-Adresse",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "sie@unternehmen.de",
+    "password": "Passwort",
+    "passwordPlaceholder": "Ihr Passwort",
+    "togglePassword": "Passwort anzeigen oder verbergen",
+    "login": {
+      "badge": "Professioneller Arbeitsbereich",
+      "heroTitle": "Entwickeln Sie Ihre Agentur mit intelligenten Lösungen.",
+      "heroDescription": "Bündeln Sie Ihre Kunden, verwalten Sie Ihre Kampagnen und verwandeln Sie Interessenten in Geschäftsmöglichkeiten.",
+      "growth": "Kontrolliertes Wachstum",
+      "agencies": "Für Digitalagenturen entwickelt",
+      "title": "Willkommen zurück",
+      "description": "Melden Sie sich bei Ihrem GrowthFlow-Arbeitsbereich an.",
+      "forgotPassword": "Passwort vergessen?",
+      "rememberMe": "Angemeldet bleiben",
+      "submit": "Anmelden",
+      "noAccount": "Sie haben noch kein Konto?",
+      "createAccount": "Konto erstellen"
+    },
+    "register": {
+      "badge": "Werden Sie Teil von GrowthFlow",
+      "heroTitle": "Bringen Sie Ihre Agentur auf die nächste Stufe.",
+      "heroHighlight": "Ihr Wachstum beginnt hier.",
+      "heroDescription": "Eine Plattform, die entwickelt wurde, um die Kundenverwaltung zu vereinfachen und Ihr Wachstum zu beschleunigen.",
+      "title": "Konto erstellen",
+      "description": "Richten Sie Ihren professionellen Arbeitsbereich in wenigen Augenblicken ein.",
+      "terms": "Ich akzeptiere die Nutzungsbedingungen und die Datenschutzrichtlinie.",
+      "submit": "Mein Konto erstellen",
+      "haveAccount": "Sie haben bereits ein Konto?"
+    }
+  }
+}

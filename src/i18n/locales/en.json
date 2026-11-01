@@ -1,0 +1,311 @@
+
+{
+  "app": {
+    "name": "GrowthFlow"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "clients": "Clients",
+    "campaigns": "Campaigns",
+    "analytics": "Analytics",
+    "leads": "Lead Management",
+    "settings": "Settings"
+  },
+  "sidebar": {
+    "platform": "Marketing Platform",
+    "workspace": "Workspace",
+    "administrator": "Administrator"
+  },
+  "header": {
+    "search": "Search...",
+    "notifications": "Notifications",
+    "profile": "My profile",
+    "logout": "Log out",
+    "language": "Language",
+    "menu": "Open menu",
+    "subtitles": {
+      "dashboard": "Here's an overview of your activity.",
+      "clients": "Manage and track your clients.",
+      "campaigns": "Manage your marketing campaigns.",
+      "analytics": "Analyze your agency's performance.",
+      "leads": "Track your prospects and opportunities.",
+      "settings": "Customize your workspace.",
+      "default": "Welcome to your GrowthFlow workspace."
+    },
+    "activityTypes": {
+      "client": "Client",
+      "campaign": "Campaign",
+      "lead": "Lead",
+      "other": "Activity"
+    },
+    "clearSearch": "Clear search",
+    "notificationCount": "Notifications: {{count}} unread",
+    "unreadCount": "{{count}} unread",
+    "markAllRead": "Mark all as read",
+    "markRead": "Mark as read",
+    "read": "Read",
+    "deleteNotification": "Delete this notification",
+    "emptyNotifications": "No notifications at the moment.",
+    "viewDashboard": "View dashboard",
+    "administrator": "Administrator"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "close": "Close",
+    "confirm": "Confirm",
+    "actions": "Actions",
+    "loading": "Loading..."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to GrowthFlow",
+    "clients": "Clients",
+    "campaigns": "Active campaigns",
+    "leads": "Leads",
+    "conversion": "Conversion rate",
+    "recentActivity": "Recent activity"
+  },
+  "overview": {
+    "welcome": "Hello, {{name}} 👋",
+    "description": "Here's an overview of your agency's activity.",
+    "unknownDate": "Unknown date",
+    "stats": {
+      "revenue": "Total revenue",
+      "demoData": "Fictional demo data",
+      "clients": "Clients",
+      "registeredClients": "Registered clients",
+      "campaigns": "Campaigns",
+      "registeredCampaigns": "Registered campaigns",
+      "convertedLeads": "Converted leads",
+      "convertedDescription": "Leads turned into clients",
+      "conversionRate": "Conversion rate",
+      "conversionDescription": "Across all leads"
+    },
+    "revenue": {
+      "title": "Revenue growth",
+      "description": "Fictional demo data",
+      "label": "Revenue"
+    },
+    "activities": {
+      "title": "Recent activities",
+      "description": "Latest actions performed",
+      "empty": "No activity at the moment.",
+      "clientCreated": "New client added: {{name}}",
+      "clientUpdated": "Client {{name}} updated",
+      "clientDeleted": "Client {{name}} deleted",
+      "campaignCreated": "New campaign added: {{name}}",
+      "campaignUpdated": "Campaign {{name}} updated",
+      "campaignDeleted": "Campaign {{name}} deleted",
+      "leadCreated": "New lead added: {{name}}",
+      "leadUpdated": "Lead {{name}} updated",
+      "leadDeleted": "Lead {{name}} deleted",
+      "generic": {
+        "client": {
+          "created": "Client created",
+          "updated": "Client updated",
+          "deleted": "Client deleted"
+        },
+        "campaign": {
+          "created": "Campaign created",
+          "updated": "Campaign updated",
+          "deleted": "Campaign deleted"
+        },
+        "lead": {
+          "created": "Lead created",
+          "updated": "Lead updated",
+          "deleted": "Lead deleted"
+        }
+      }
+    },
+    "campaigns": {
+      "title": "Recent campaigns",
+      "description": "Latest registered campaigns",
+      "empty": "No campaigns registered."
+    },
+    "leads": {
+      "title": "Recent leads",
+      "description": "Latest registered prospects",
+      "empty": "No leads registered."
+    },
+    "table": {
+      "campaign": "Campaign",
+      "channel": "Channel",
+      "budget": "Budget",
+      "status": "Status",
+      "name": "Name",
+      "company": "Company",
+      "source": "Source"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep"
+    }
+  },
+  "clients": {
+    "heading": "Your clients",
+    "description": "Manage the companies supported by your agency.",
+    "add": "Add a client",
+    "editTitle": "Edit client",
+    "newTitle": "New client",
+    "companyName": "Company name",
+    "sector": "Industry",
+    "active": "Active",
+    "pending": "Pending",
+    "saveChanges": "Save changes",
+    "addClient": "Add client",
+    "search": "Search for a client...",
+    "client": "Client",
+    "sectorLabel": "Industry",
+    "campaigns": "Campaigns",
+    "status": "Status",
+    "empty": "No clients found.",
+    "confirmDelete": "Are you sure you want to delete {{name}}?"
+  },
+  "campaigns": {
+    "heading": "Marketing campaigns",
+    "description": "Track your clients' campaigns.",
+    "add": "New campaign",
+    "search": "Search for a campaign...",
+    "editTitle": "Edit campaign",
+    "newTitle": "New campaign",
+    "name": "Campaign name",
+    "budget": "Budget in euros",
+    "planned": "Planned",
+    "inProgress": "In progress",
+    "completed": "Completed",
+    "saveChanges": "Save changes",
+    "addCampaign": "Add campaign",
+    "empty": "No campaigns found.",
+    "emptyDescription": "Try another name, channel or status.",
+    "confirmDelete": "Do you want to delete this campaign?"
+  },
+  "analytics": {
+    "heading": "Analytics",
+    "description": "Analyze your agency's marketing performance.",
+    "selectPeriod": "Select a period",
+    "periods": {
+      "7days": "7 days",
+      "30days": "30 days",
+      "90days": "90 days",
+      "12months": "12 months"
+    },
+    "metrics": {
+      "visitors": "Visitors",
+      "conversions": "Conversions",
+      "clickRate": "Click-through rate",
+      "leads": "Generated leads",
+      "conversionRate": "Conversion rate"
+    },
+    "previousPeriod": "compared to the previous period",
+    "visitorsEvolution": "Visitor growth",
+    "visitorsDescription": "Traffic during the selected period",
+    "campaignPerformance": "Campaign performance",
+    "campaignDescription": "Conversions by channel during the selected period"
+  },
+  "leads": {
+    "heading": "Lead management",
+    "description": "Track your prospects and opportunities.",
+    "add": "Add a lead",
+    "search": "Search for a lead...",
+    "editTitle": "Edit lead",
+    "newTitle": "New lead",
+    "name": "Prospect name",
+    "company": "Company",
+    "source": "Source",
+    "status": "Status",
+    "saveChanges": "Save",
+    "addLead": "Add",
+    "empty": "No leads found.",
+    "confirmDelete": "Are you sure you want to delete this lead?",
+    "statuses": [
+      "New",
+      "Contacted",
+      "Qualified",
+      "Converted",
+      "Lost"
+    ],
+    "sources": [
+      "Website",
+      "LinkedIn",
+      "Advertising",
+      "Referral",
+      "Other"
+    ]
+  },
+  "settings": {
+    "heading": "Settings",
+    "description": "Manage your workspace information and preferences.",
+    "agency": {
+      "title": "Agency information",
+      "description": "General information",
+      "name": "Agency name",
+      "email": "Email address"
+    },
+    "account": {
+      "title": "User account",
+      "description": "Your account preferences",
+      "role": "Administrator profile",
+      "notice": "Full user management will be added later."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Manage your alerts",
+      "receive": "Receive notifications"
+    },
+    "security": {
+      "title": "Security",
+      "description": "Password and authentication management will be added with the backend."
+    },
+    "save": "Save changes",
+    "success": "Settings saved successfully!"
+  },
+  "auth": {
+    "copyright": "© {{year}} GrowthFlow. All rights reserved.",
+    "fullName": "Full name",
+    "fullNamePlaceholder": "Your full name",
+    "agencyName": "Agency name",
+    "agencyPlaceholder": "Your agency name",
+    "professionalEmail": "Professional email address",
+    "email": "Email address",
+    "emailPlaceholder": "you@company.com",
+    "password": "Password",
+    "passwordPlaceholder": "Your password",
+    "togglePassword": "Show or hide password",
+    "login": {
+      "badge": "Professional workspace",
+      "heroTitle": "Grow your agency intelligently.",
+      "heroDescription": "Centralize your clients, manage your campaigns and turn prospects into opportunities.",
+      "growth": "Controlled growth",
+      "agencies": "Designed for digital agencies",
+      "title": "Welcome back",
+      "description": "Sign in to your GrowthFlow workspace.",
+      "forgotPassword": "Forgot password?",
+      "rememberMe": "Remember me",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account yet?",
+      "createAccount": "Create an account"
+    },
+    "register": {
+      "badge": "Join GrowthFlow",
+      "heroTitle": "Take your agency to the next level.",
+      "heroHighlight": "Your growth starts here.",
+      "heroDescription": "A platform designed to simplify client management and accelerate your growth.",
+      "title": "Create your account",
+      "description": "Set up your professional workspace in just a few moments.",
+      "terms": "I accept the terms of use and privacy policy.",
+      "submit": "Create my account",
+      "haveAccount": "Already have an account?"
+    }
+  }
+}

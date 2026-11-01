@@ -1,0 +1,311 @@
+
+{
+  "app": {
+    "name": "GrowthFlow"
+  },
+  "navigation": {
+    "dashboard": "Panel de control",
+    "clients": "Clientes",
+    "campaigns": "Campañas",
+    "analytics": "Analítica",
+    "leads": "Gestión de leads",
+    "settings": "Configuración"
+  },
+  "sidebar": {
+    "platform": "Plataforma de marketing",
+    "workspace": "Espacio de trabajo",
+    "administrator": "Administrador"
+  },
+  "header": {
+    "search": "Buscar...",
+    "notifications": "Notificaciones",
+    "profile": "Mi perfil",
+    "logout": "Cerrar sesión",
+    "language": "Idioma",
+    "menu": "Abrir menú",
+    "subtitles": {
+      "dashboard": "Aquí tienes un resumen de tu actividad.",
+      "clients": "Gestiona y realiza el seguimiento de tus clientes.",
+      "campaigns": "Gestiona tus campañas de marketing.",
+      "analytics": "Analiza el rendimiento de tu agencia.",
+      "leads": "Haz seguimiento de tus prospectos y oportunidades.",
+      "settings": "Personaliza tu espacio de trabajo.",
+      "default": "Bienvenido a tu espacio de GrowthFlow."
+    },
+    "activityTypes": {
+      "client": "Cliente",
+      "campaign": "Campaña",
+      "lead": "Lead",
+      "other": "Actividad"
+    },
+    "clearSearch": "Borrar búsqueda",
+    "notificationCount": "Notificaciones: {{count}} sin leer",
+    "unreadCount": "{{count}} sin leer",
+    "markAllRead": "Marcar todas como leídas",
+    "markRead": "Marcar como leída",
+    "read": "Leída",
+    "deleteNotification": "Eliminar esta notificación",
+    "emptyNotifications": "No hay notificaciones por el momento.",
+    "viewDashboard": "Ver panel de control",
+    "administrator": "Administrador"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "add": "Añadir",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "actions": "Acciones",
+    "loading": "Cargando..."
+  },
+  "dashboard": {
+    "title": "Panel de control",
+    "welcome": "Bienvenido a GrowthFlow",
+    "clients": "Clientes",
+    "campaigns": "Campañas activas",
+    "leads": "Leads",
+    "conversion": "Tasa de conversión",
+    "recentActivity": "Actividad reciente"
+  },
+  "overview": {
+    "welcome": "Hola, {{name}} 👋",
+    "description": "Aquí tienes un resumen de la actividad de tu agencia.",
+    "unknownDate": "Fecha desconocida",
+    "stats": {
+      "revenue": "Ingresos totales",
+      "demoData": "Datos ficticios de demostración",
+      "clients": "Clientes",
+      "registeredClients": "Clientes registrados",
+      "campaigns": "Campañas",
+      "registeredCampaigns": "Campañas registradas",
+      "convertedLeads": "Leads convertidos",
+      "convertedDescription": "Leads transformados en clientes",
+      "conversionRate": "Tasa de conversión",
+      "conversionDescription": "Sobre el total de leads"
+    },
+    "revenue": {
+      "title": "Evolución de los ingresos",
+      "description": "Datos ficticios de demostración",
+      "label": "Ingresos"
+    },
+    "activities": {
+      "title": "Actividades recientes",
+      "description": "Las últimas acciones realizadas",
+      "empty": "No hay actividades por el momento.",
+      "clientCreated": "Nuevo cliente añadido: {{name}}",
+      "clientUpdated": "Cliente {{name}} actualizado",
+      "clientDeleted": "Cliente {{name}} eliminado",
+      "campaignCreated": "Nueva campaña añadida: {{name}}",
+      "campaignUpdated": "Campaña {{name}} actualizada",
+      "campaignDeleted": "Campaña {{name}} eliminada",
+      "leadCreated": "Nuevo lead añadido: {{name}}",
+      "leadUpdated": "Lead {{name}} actualizado",
+      "leadDeleted": "Lead {{name}} eliminado",
+      "generic": {
+        "client": {
+          "created": "Cliente creado",
+          "updated": "Cliente actualizado",
+          "deleted": "Cliente eliminado"
+        },
+        "campaign": {
+          "created": "Campaña creada",
+          "updated": "Campaña actualizada",
+          "deleted": "Campaña eliminada"
+        },
+        "lead": {
+          "created": "Lead creado",
+          "updated": "Lead actualizado",
+          "deleted": "Lead eliminado"
+        }
+      }
+    },
+    "campaigns": {
+      "title": "Campañas recientes",
+      "description": "Las últimas campañas registradas",
+      "empty": "No hay campañas registradas."
+    },
+    "leads": {
+      "title": "Leads recientes",
+      "description": "Los últimos prospectos registrados",
+      "empty": "No hay leads registrados."
+    },
+    "table": {
+      "campaign": "Campaña",
+      "channel": "Canal",
+      "budget": "Presupuesto",
+      "status": "Estado",
+      "name": "Nombre",
+      "company": "Empresa",
+      "source": "Origen"
+    },
+    "months": {
+      "jan": "Ene",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Abr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Ago",
+      "sep": "Sep"
+    }
+  },
+  "clients": {
+    "heading": "Tus clientes",
+    "description": "Gestiona las empresas atendidas por tu agencia.",
+    "add": "Añadir un cliente",
+    "editTitle": "Editar cliente",
+    "newTitle": "Nuevo cliente",
+    "companyName": "Nombre de la empresa",
+    "sector": "Sector de actividad",
+    "active": "Activo",
+    "pending": "Pendiente",
+    "saveChanges": "Guardar cambios",
+    "addClient": "Añadir cliente",
+    "search": "Buscar un cliente...",
+    "client": "Cliente",
+    "sectorLabel": "Sector",
+    "campaigns": "Campañas",
+    "status": "Estado",
+    "empty": "No se encontraron clientes.",
+    "confirmDelete": "¿Realmente quieres eliminar a {{name}}?"
+  },
+  "campaigns": {
+    "heading": "Campañas de marketing",
+    "description": "Haz seguimiento de las campañas de tus clientes.",
+    "add": "Nueva campaña",
+    "search": "Buscar una campaña...",
+    "editTitle": "Editar campaña",
+    "newTitle": "Nueva campaña",
+    "name": "Nombre de la campaña",
+    "budget": "Presupuesto en euros",
+    "planned": "Planificada",
+    "inProgress": "En curso",
+    "completed": "Completada",
+    "saveChanges": "Guardar cambios",
+    "addCampaign": "Añadir campaña",
+    "empty": "No se encontraron campañas.",
+    "emptyDescription": "Prueba con otro nombre, canal o estado.",
+    "confirmDelete": "¿Quieres eliminar esta campaña?"
+  },
+  "analytics": {
+    "heading": "Analítica",
+    "description": "Analiza el rendimiento de marketing de tu agencia.",
+    "selectPeriod": "Seleccionar un período",
+    "periods": {
+      "7days": "7 días",
+      "30days": "30 días",
+      "90days": "90 días",
+      "12months": "12 meses"
+    },
+    "metrics": {
+      "visitors": "Visitantes",
+      "conversions": "Conversiones",
+      "clickRate": "Tasa de clics",
+      "leads": "Leads generados",
+      "conversionRate": "Tasa de conversión"
+    },
+    "previousPeriod": "en comparación con el período anterior",
+    "visitorsEvolution": "Evolución de visitantes",
+    "visitorsDescription": "Tráfico durante el período seleccionado",
+    "campaignPerformance": "Rendimiento de las campañas",
+    "campaignDescription": "Conversiones por canal durante el período seleccionado"
+  },
+  "leads": {
+    "heading": "Gestión de leads",
+    "description": "Haz seguimiento de tus prospectos y oportunidades.",
+    "add": "Añadir un lead",
+    "search": "Buscar un lead...",
+    "editTitle": "Editar lead",
+    "newTitle": "Nuevo lead",
+    "name": "Nombre del prospecto",
+    "company": "Empresa",
+    "source": "Origen",
+    "status": "Estado",
+    "saveChanges": "Guardar",
+    "addLead": "Añadir",
+    "empty": "No se encontraron leads.",
+    "confirmDelete": "¿Realmente quieres eliminar este lead?",
+    "statuses": [
+      "Nuevo",
+      "Contactado",
+      "Cualificado",
+      "Convertido",
+      "Perdido"
+    ],
+    "sources": [
+      "Sitio web",
+      "LinkedIn",
+      "Publicidad",
+      "Recomendación",
+      "Otro"
+    ]
+  },
+  "settings": {
+    "heading": "Configuración",
+    "description": "Gestiona la información y las preferencias de tu espacio.",
+    "agency": {
+      "title": "Información de la agencia",
+      "description": "Información general",
+      "name": "Nombre de la agencia",
+      "email": "Dirección de correo electrónico"
+    },
+    "account": {
+      "title": "Cuenta de usuario",
+      "description": "Preferencias de tu cuenta",
+      "role": "Perfil de administrador",
+      "notice": "La gestión completa de usuarios se añadirá más adelante."
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "description": "Gestiona tus alertas",
+      "receive": "Recibir notificaciones"
+    },
+    "security": {
+      "title": "Seguridad",
+      "description": "La gestión de contraseñas y autenticación se añadirá con el backend."
+    },
+    "save": "Guardar cambios",
+    "success": "¡Configuración guardada correctamente!"
+  },
+  "auth": {
+    "copyright": "© {{year}} GrowthFlow. Todos los derechos reservados.",
+    "fullName": "Nombre completo",
+    "fullNamePlaceholder": "Tu nombre completo",
+    "agencyName": "Nombre de la agencia",
+    "agencyPlaceholder": "Nombre de tu agencia",
+    "professionalEmail": "Correo electrónico profesional",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "tu@empresa.com",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Tu contraseña",
+    "togglePassword": "Mostrar u ocultar contraseña",
+    "login": {
+      "badge": "Espacio profesional",
+      "heroTitle": "Haz crecer tu agencia de forma inteligente.",
+      "heroDescription": "Centraliza tus clientes, gestiona tus campañas y convierte tus prospectos en oportunidades.",
+      "growth": "Crecimiento controlado",
+      "agencies": "Diseñado para agencias digitales",
+      "title": "Bienvenido de nuevo",
+      "description": "Inicia sesión en tu espacio de GrowthFlow.",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "rememberMe": "Recordarme",
+      "submit": "Iniciar sesión",
+      "noAccount": "¿Todavía no tienes una cuenta?",
+      "createAccount": "Crear una cuenta"
+    },
+    "register": {
+      "badge": "Únete a GrowthFlow",
+      "heroTitle": "Lleva tu agencia al siguiente nivel.",
+      "heroHighlight": "Tu crecimiento comienza aquí.",
+      "heroDescription": "Una plataforma diseñada para simplificar la gestión de clientes y acelerar tu desarrollo.",
+      "title": "Crear tu cuenta",
+      "description": "Configura tu espacio profesional en unos instantes.",
+      "terms": "Acepto las condiciones de uso y la política de privacidad.",
+      "submit": "Crear mi cuenta",
+      "haveAccount": "¿Ya tienes una cuenta?"
+    }
+  }
+}
